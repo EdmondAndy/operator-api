@@ -1,0 +1,10 @@
+apiVersion: api.test.edmondandy.io/v1alpha1
+kind: Configuration
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-api
+    app.kubernetes.io/managed-by: kustomize
+  name: configuration-sample
+spec:
+  type: "foo"
+  setting: "default"
